@@ -9,7 +9,7 @@ export default function App() {
             <Model />
             <ContactShadows
                 // far={0.8}
-                // opacity={1}
+                opacity={0.5}
                 // scale={10}
                 // blur={2}
                 // resolution={512}
