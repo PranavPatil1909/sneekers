@@ -8,12 +8,12 @@ export default function App() {
             <Environment preset="sunset" background blur={[2]} />
             <Model />
             <ContactShadows
-                far={0.8}
-                opacity={1}
-                scale={10}
-                blur={2}
-                resolution={512}
-                position={[0, -0.8, 0]} color="#ffffff" />
+                // far={0.8}
+                // opacity={1}
+                // scale={10}
+                // blur={2}
+                // resolution={512}
+                position={[0, -0.6, 0]} color="#ffffff" />
             <OrbitControls />
         </Canvas>
     )
