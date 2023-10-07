@@ -1,70 +1,152 @@
-# Getting Started with Create React App
+# React-Three-Fiber-Boilerplate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This boilerplate is supplemental to my React Three Fiber course documentation hosted at [https://sbcode.net/react-three-fiber/](https://sbcode.net/react-three-fiber/)
 
-## Available Scripts
+![React Three Fiber Course Image](./docs/react-three-fiber-course-image-small.jpg)
 
-In the project directory, you can run:
+## Install
 
-### `npm start`
+```bash
+git clone https://github.com/Sean-Bradley/React-Three-Fiber-Boilerplate.git
+cd React-Three-Fiber-Boilerplate
+npm install
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Your default browser should open `http://localhost:3000/` automatically for you.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Branches
 
-### `npm test`
+There are many branches in this boilerplate demonstrating various aspects.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To list all branches type,
 
-### `npm run build`
+```bash
+git branch
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To install a specific branch, for example `orbitControls` type,
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git checkout orbitControls
+npm install
+npm run start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+and, you will get a quite interactive demo of some green wireframe cubes/spheres/dodecahedrons.
 
-### `npm run eject`
+There are many branches.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Some other examples are,
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Leva Branch
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git checkout leva
+npm install
+npm run start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![leva branch](./docs/leva.jpg)
 
-## Learn More
+### Shadows Branch
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git checkout shadows
+npm install
+npm run start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![shadows branch](./docs/shadows.jpg)
 
-### Code Splitting
+### Environment Branch
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+git checkout environment
+npm install
+npm run start
+```
 
-### Analyzing the Bundle Size
+![environment branch](./docs/environment.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### glTFAdvanced Branch
 
-### Making a Progressive Web App
+```bash
+git checkout glTFAdvanced
+npm install
+npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![glTFAdvanced branch](./docs/glTFAdvanced.jpg)
 
-### Advanced Configuration
+### Annotations Branch
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+git checkout annotations
+npm install
+npm run start
+```
 
-### Deployment
+![annotations branch](./docs/annotations.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### GLTFJSX Branch
 
-### `npm run build` fails to minify
+```bash
+git checkout gltfjsx
+npm install
+npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![gltfjsx branch](./docs/gltfjsx.jpg)
+
+### House Branch
+
+```bash
+git checkout house
+npm install
+npm run start
+```
+
+![house branch](./docs/house.jpg)
+
+### Follow Cam Branch
+
+```bash
+git checkout followCam
+npm install
+npm run start
+```
+
+![followCam branch](./docs/followCam.jpg)
+
+## Other Branches
+
+There are many branches in this boilerplate.
+
+To list all branches type,
+
+```bash
+git branch
+```
+
+If you change to another branch, remember to first run
+
+```bash
+npm install
+```
+
+and then run.
+
+```bash
+npm start
+```
+
+## React Three Fiber Course
+
+To allow me to continue to release free MIT code, please check out my React Three Fiber course on [Udemy](https://www.udemy.com/course/react-three-fiber/?referralCode=338F7F03D9775AD115A7) and [YouTube (Channel membership required)](https://www.youtube.com/playlist?list=PLKWUX7aMnlEK9DrrY1yXdiUBro1CryZaX).
+
+[![React Three Fiber Course Introduction](./docs/react-three-fiber-course-image.jpg)](https://youtu.be/p_8rW0c4ASk)
+
+Thanks
+
+Sean Bradley
